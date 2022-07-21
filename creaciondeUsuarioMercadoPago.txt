@@ -1,0 +1,24 @@
+curl -X POST \
+-H "Content-Type: application/json" \
+-H 'Authorization: Bearer TEST-6429076253252635-070820-059a60aa8e74283857d2771b371052d8-660249533' \
+"https://api.mercadopago.com/users/test" \
+-d '{"site_id":"MPE","description" : "a description"}'
+
+vendedor
+{"id":1157632878,
+"nickname":"TESTU3CRGCT5",
+"password":"qatest2144",
+"site_status":"active",
+"site_id":"MPE",
+"description":"a description","date_created":"2022-07-09T14:37:26-04:00","date_last_updated":"2022-07-09T14:37:26-04:00"}
+
+comprador
+{"id":1157635620,
+"nickname":"TETE957188",
+"password":"qatest395",
+"site_status":"active",
+"site_id":"MPE",
+"description":"a description",
+"date_created":"2022-07-09T14:40:24-04:00","date_last_updated":"2022-07-09T14:40:24-04:00"}
+
+

@@ -1,0 +1,16 @@
+
+composer require bumbummen99/shoppingcart
+
+/* creamos el componente CreateProduct
+php artisan make:livewire Admin/CreateProduct
+
+/* para generar los eventos de login y logout*/
+
+php artisan event:generate
+
+
+***********************************************
+php artisan make:model Department -mfs
+php artisan make:model City -mfs
+php artisan make:model District -mfs
+php artisan make:model Order -m
